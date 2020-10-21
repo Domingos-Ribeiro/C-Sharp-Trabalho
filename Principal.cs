@@ -4,9 +4,12 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Serialization;
 
 namespace Trabalho_Final
 {
@@ -65,6 +68,34 @@ namespace Trabalho_Final
         private void finalProjectToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://domingos-ribeiro.github.io/Portfolio-2/");
+        }
+
+        private void toolStripMenuItem14_Click(object sender, EventArgs e)
+        {
+            this.BackgroundImage = null;
+            //this.BackgroundImage = new Bitmap("\fundo.jpg");
+        }
+
+        private void toolStripMenuItem15_Click(object sender, EventArgs e)
+        {
+            
+            this.Hide();
+            Principal Geral = new Principal();
+            Geral.ShowDialog();
+        }
+
+        private void toolStripMenuItem16_Click(object sender, EventArgs e)
+        {
+            //string caminho = Application.StartupPath + "\\images\\";//MAIS uma tentativa FALHADA de ir buscar um pasta criada apra o efeito
+            //this.BackgroundImage = Image.FromFile(caminho + "C_Sharp_logo_mini.jpg");
+            //this.BackgroundImageLayout = ImageLayout.Tile; // Para tentar criar um padrão a partir de uma imagem pequena.
+            //this.BackgroundImage = new System.Drawing.Bitmap("C_Sharp_logo_mini.png");
+            //this.BackgroundImage = new Bitmap("C_Sharp_logo_mini.png");
+            //Principal.BackgroundImage = "C_Sharp_logo_mini.png";
+            //this.BackgroundImage.Width.Equals("C_Sharp_logo_mini.png");
+            //Principal novo = new Principal();
+            //novo.BackgroundImage = "\C_Sharp_logo_mini.png";
+            //this.BackgroundImage = ("C_Sharp_logo_mini.jpg");
         }
     }
 }
