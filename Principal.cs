@@ -72,13 +72,13 @@ namespace Trabalho_Final
 
         private void toolStripMenuItem14_Click(object sender, EventArgs e)
         {
+            //Elimina a imagem de fundo
             this.BackgroundImage = null;
-            //this.BackgroundImage = new Bitmap("\fundo.jpg");
         }
 
         private void toolStripMenuItem15_Click(object sender, EventArgs e)
         {
-            
+            //Depois de quase 3 horas de tentativas, resolvi fazer uma pequena batota para voltar a colocar a imagem que estava antes :))
             this.Hide();
             Principal Geral = new Principal();
             Geral.ShowDialog();
@@ -86,6 +86,8 @@ namespace Trabalho_Final
 
         private void toolStripMenuItem16_Click(object sender, EventArgs e)
         {
+            //As linhas de códigos em baixo são apenas TENTATIVAS FALHADAS para TROCAR a imagem de fundo.
+
             //string caminho = Application.StartupPath + "\\images\\";//MAIS uma tentativa FALHADA de ir buscar um pasta criada apra o efeito
             //this.BackgroundImage = Image.FromFile(caminho + "C_Sharp_logo_mini.jpg");
             //this.BackgroundImageLayout = ImageLayout.Tile; // Para tentar criar um padrão a partir de uma imagem pequena.
