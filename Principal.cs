@@ -98,6 +98,23 @@ namespace Trabalho_Final
             //Principal novo = new Principal();
             //novo.BackgroundImage = "\C_Sharp_logo_mini.png";
             //this.BackgroundImage = ("C_Sharp_logo_mini.jpg");
+
+
+            //Encontrei este código na Net que funciona muito bem, já está guardado para um aplicação futura.
+            //Não é o que eu queria... mas funciona exatamente para a imagem que criei "fundo.jpg" para fazer um padrão.
+            Principal buscar_imagem = new Principal();
+            OpenFileDialog op = new OpenFileDialog();
+
+            op.Filter = @"All Images|*.BMP;*.DIB;*.RLE;*.JPG;*.JPEG;*.JPE;*.JFIF;*.GIF;*.TIF;*.TIFF;*.PNG|
+            BMP Files: (*.BMP;*.DIB;*.RLE)|*.BMP;*.DIB;*.RLE|
+            JPEG Files: (*.JPG;*.JPEG;*.JPE;*.JFIF)|*.JPG;*.JPEG;*.JPE;*.JFIF|
+            GIF Files: (*.GIF)|*.GIF|
+            TIFF Files: (*.TIF;*.TIFF)|*.TIF;*.TIFF|
+            PNG Files: (*.PNG)|*.PNG|
+            All Files|*.*";
+
+            op.ShowDialog();
+            this.BackgroundImage = new Bitmap(op.FileName);
         }
     }
 }

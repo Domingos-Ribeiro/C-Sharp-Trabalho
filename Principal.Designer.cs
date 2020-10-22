@@ -569,10 +569,10 @@
             // 
             // toolStripMenuItem16
             // 
-            this.toolStripMenuItem16.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.toolStripMenuItem16.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.toolStripMenuItem16.Name = "toolStripMenuItem16";
             this.toolStripMenuItem16.Size = new System.Drawing.Size(229, 22);
-            this.toolStripMenuItem16.Text = "Change Image (Do not work)";
+            this.toolStripMenuItem16.Text = "Select one image";
             this.toolStripMenuItem16.Click += new System.EventHandler(this.toolStripMenuItem16_Click);
             // 
             // Principal
