@@ -65,9 +65,9 @@
             this.groupBox1.Controls.Add(this.txt_suspensos);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Location = new System.Drawing.Point(572, 134);
+            this.groupBox1.Location = new System.Drawing.Point(580, 128);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 345);
+            this.groupBox1.Size = new System.Drawing.Size(200, 351);
             this.groupBox1.TabIndex = 31;
             this.groupBox1.TabStop = false;
             // 
@@ -145,32 +145,32 @@
             this.panel2.Controls.Add(this.cmdAdicionar);
             this.panel2.Location = new System.Drawing.Point(26, -4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(310, 100);
+            this.panel2.Size = new System.Drawing.Size(331, 100);
             this.panel2.TabIndex = 30;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(17, 14);
+            this.label1.Location = new System.Drawing.Point(16, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 15);
+            this.label1.Size = new System.Drawing.Size(289, 15);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Nome";
+            this.label1.Text = "Digitar um Nome para Adicionar ao Sistema";
             // 
             // txtNome
             // 
             this.txtNome.Location = new System.Drawing.Point(17, 32);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(276, 20);
+            this.txtNome.Size = new System.Drawing.Size(286, 20);
             this.txtNome.TabIndex = 2;
             // 
             // cmdAdicionar
             // 
             this.cmdAdicionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdAdicionar.Location = new System.Drawing.Point(125, 58);
+            this.cmdAdicionar.Location = new System.Drawing.Point(186, 58);
             this.cmdAdicionar.Name = "cmdAdicionar";
-            this.cmdAdicionar.Size = new System.Drawing.Size(168, 36);
+            this.cmdAdicionar.Size = new System.Drawing.Size(117, 36);
             this.cmdAdicionar.TabIndex = 3;
             this.cmdAdicionar.Text = "Adicionar";
             this.cmdAdicionar.UseVisualStyleBackColor = true;
@@ -182,15 +182,15 @@
             this.panel1.Controls.Add(this.btn_Selec_um);
             this.panel1.Controls.Add(this.btn_Selec_todos);
             this.panel1.Controls.Add(this.btn_Voltar_todos);
-            this.panel1.Location = new System.Drawing.Point(263, 134);
+            this.panel1.Location = new System.Drawing.Point(280, 134);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(73, 345);
+            this.panel1.Size = new System.Drawing.Size(61, 345);
             this.panel1.TabIndex = 29;
             // 
             // btn_Voltar_um
             // 
             this.btn_Voltar_um.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Voltar_um.Location = new System.Drawing.Point(14, 201);
+            this.btn_Voltar_um.Location = new System.Drawing.Point(9, 201);
             this.btn_Voltar_um.Name = "btn_Voltar_um";
             this.btn_Voltar_um.Size = new System.Drawing.Size(42, 25);
             this.btn_Voltar_um.TabIndex = 12;
@@ -201,7 +201,7 @@
             // btn_Selec_um
             // 
             this.btn_Selec_um.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Selec_um.Location = new System.Drawing.Point(14, 83);
+            this.btn_Selec_um.Location = new System.Drawing.Point(9, 83);
             this.btn_Selec_um.Name = "btn_Selec_um";
             this.btn_Selec_um.Size = new System.Drawing.Size(42, 25);
             this.btn_Selec_um.TabIndex = 9;
@@ -212,7 +212,7 @@
             // btn_Selec_todos
             // 
             this.btn_Selec_todos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Selec_todos.Location = new System.Drawing.Point(14, 114);
+            this.btn_Selec_todos.Location = new System.Drawing.Point(9, 114);
             this.btn_Selec_todos.Name = "btn_Selec_todos";
             this.btn_Selec_todos.Size = new System.Drawing.Size(42, 29);
             this.btn_Selec_todos.TabIndex = 10;
@@ -223,7 +223,7 @@
             // btn_Voltar_todos
             // 
             this.btn_Voltar_todos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Voltar_todos.Location = new System.Drawing.Point(14, 232);
+            this.btn_Voltar_todos.Location = new System.Drawing.Point(9, 232);
             this.btn_Voltar_todos.Name = "btn_Voltar_todos";
             this.btn_Voltar_todos.Size = new System.Drawing.Size(42, 25);
             this.btn_Voltar_todos.TabIndex = 11;
@@ -235,7 +235,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(375, 113);
+            this.label3.Location = new System.Drawing.Point(387, 113);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(156, 17);
             this.label3.TabIndex = 28;
@@ -246,9 +246,9 @@
             this.lstSuspensos.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstSuspensos.FormattingEnabled = true;
             this.lstSuspensos.ItemHeight = 31;
-            this.lstSuspensos.Location = new System.Drawing.Point(354, 134);
+            this.lstSuspensos.Location = new System.Drawing.Point(360, 134);
             this.lstSuspensos.Name = "lstSuspensos";
-            this.lstSuspensos.Size = new System.Drawing.Size(202, 345);
+            this.lstSuspensos.Size = new System.Drawing.Size(208, 345);
             this.lstSuspensos.TabIndex = 27;
             // 
             // label2
@@ -279,7 +279,7 @@
             this.lstUtilizadores.ItemHeight = 31;
             this.lstUtilizadores.Location = new System.Drawing.Point(39, 134);
             this.lstUtilizadores.Name = "lstUtilizadores";
-            this.lstUtilizadores.Size = new System.Drawing.Size(205, 345);
+            this.lstUtilizadores.Size = new System.Drawing.Size(217, 345);
             this.lstUtilizadores.TabIndex = 24;
             // 
             // button1
@@ -287,7 +287,7 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(594, 41);
+            this.button1.Location = new System.Drawing.Point(602, 41);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(178, 40);
             this.button1.TabIndex = 32;
@@ -299,7 +299,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(799, 535);
+            this.ClientSize = new System.Drawing.Size(810, 535);
+            this.ControlBox = false;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel2);

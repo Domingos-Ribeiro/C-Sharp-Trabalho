@@ -50,9 +50,6 @@ namespace Trabalho_Final
 
         private void finalProjectToolStripMenuItem3_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            C_Sharp_12 Class_C12 = new C_Sharp_12();
-            Class_C12.ShowDialog();
         }
 
         private void finalProjectToolStripMenuItem2_Click(object sender, EventArgs e)
