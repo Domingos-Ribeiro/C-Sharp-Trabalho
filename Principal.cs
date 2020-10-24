@@ -97,6 +97,7 @@ namespace Trabalho_Final
             //this.BackgroundImage = ("C_Sharp_logo_mini.jpg");
 
 
+
             //Encontrei este código na Net que funciona muito bem, já está guardado para um aplicação futura.
             //Não é o que eu queria... mas funciona exatamente para a imagem que criei "fundo.jpg" para fazer um padrão.
             Principal buscar_imagem = new Principal();
@@ -118,6 +119,12 @@ namespace Trabalho_Final
         {
             About About = new About();
             About.ShowDialog();
+        }
+
+        private void creditsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Credits creditos = new Credits();
+            creditos.ShowDialog();
         }
     }
 }
