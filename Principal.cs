@@ -113,5 +113,11 @@ namespace Trabalho_Final
             op.ShowDialog();
             this.BackgroundImage = new Bitmap(op.FileName);
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            About About = new About();
+            About.ShowDialog();
+        }
     }
 }
