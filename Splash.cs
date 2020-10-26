@@ -21,8 +21,8 @@ namespace Trabalho_Final
         {
             timer1.Stop();
             this.Hide();
-            Principal Geral = new Principal();
-            Geral.ShowDialog();
+            Principal geral = new Principal();
+            geral.ShowDialog();
         }
 
         private void Splash_Load(object sender, EventArgs e)

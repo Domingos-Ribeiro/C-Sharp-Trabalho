@@ -206,8 +206,8 @@ namespace Trabalho_Final
         {
             this.Close();
             this.Hide();
-            Principal Geral = new Principal();
-            Geral.ShowDialog();
+            Principal geral = new Principal();
+            geral.ShowDialog();
 
         }
     }

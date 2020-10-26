@@ -34,8 +34,8 @@ namespace Trabalho_Final
         private void usersValidationToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
-            C_Sharp_12 Class_C12 = new C_Sharp_12();
-            Class_C12.ShowDialog();
+            C_Sharp_12 class_C12 = new C_Sharp_12();
+            class_C12.ShowDialog();
         }
 
         private void classToolStripMenuItem4_Click(object sender, EventArgs e)
@@ -77,8 +77,8 @@ namespace Trabalho_Final
         {
             //Depois de quase 3 horas de tentativas, resolvi fazer uma pequena batota para voltar a colocar a imagem que estava antes :))
             this.Hide();
-            Principal Geral = new Principal();
-            Geral.ShowDialog();
+            Principal geral = new Principal();
+            geral.ShowDialog();
         }
 
         private void toolStripMenuItem16_Click(object sender, EventArgs e)
@@ -121,8 +121,8 @@ namespace Trabalho_Final
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            About About = new About();
-            About.ShowDialog();
+            About about = new About();
+            about.ShowDialog();
         }
 
         private void creditsToolStripMenuItem_Click(object sender, EventArgs e)
