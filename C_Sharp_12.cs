@@ -15,6 +15,18 @@ namespace Trabalho_Final
         public C_Sharp_12()
         {
             InitializeComponent();
+            //this.Show();
+            Aviso_C_12 aviso = new Aviso_C_12();
+            aviso.ShowDialog();
+            
+            cmdRemover.Enabled = false;
+            btn_Selec_um.Enabled = false;
+            btn_Selec_todos.Enabled = false;
+            btn_Voltar_um.Enabled = false;
+            btn_Voltar_todos.Enabled = false;
+            //Aqui o "Focus" não funciona... pela minha lógica deveveria.
+            //O Visual Code sugeriu colocar a variável v boleana mas também não funcionou.
+            //bool v = txtNome.Focus();
         }
 
         private void cmdAdicionar_Click(object sender, EventArgs e)
@@ -29,6 +41,8 @@ namespace Trabalho_Final
                 if (lstUtilizadores.Items.Count >= 0)
                 {
                     cmdRemover.Enabled = true;
+                    btn_Selec_um.Enabled = true;
+                    btn_Selec_todos.Enabled = true;
                 }
 
             }
@@ -66,12 +80,15 @@ namespace Trabalho_Final
             if (lstUtilizadores.Items.Count <= 0)
             {
                 cmdRemover.Enabled = false;
+                //cmdRemover.BackColor = Color.Red;
             }
 
             if (lstUtilizadores.Items.Count <= 0)
             {
                 btn_Selec_um.Enabled = false;
+                //btn_Voltar_um.BackColor = Color.Red;
                 btn_Selec_todos.Enabled = false;
+                //btn_Voltar_todos.BackColor = Color.Red;
             }
 
             if (lstSuspensos.Items.Count >= 0)
@@ -101,7 +118,9 @@ namespace Trabalho_Final
             if (lstUtilizadores.Items.Count <= 0)
             {
                 btn_Selec_um.Enabled = false;
+                //btn_Voltar_um.BackColor = Color.Red;
                 btn_Selec_todos.Enabled = false;
+                //btn_Voltar_todos.BackColor = Color.Red;
             }
 
             if (lstSuspensos.Items.Count >= 0)
@@ -132,12 +151,15 @@ namespace Trabalho_Final
             if (lstUtilizadores.Items.Count >= 0)
             {
                 cmdRemover.Enabled = true;
+                
             }
 
             if (lstSuspensos.Items.Count <= 0)
             {
                 btn_Voltar_um.Enabled = false;
+                //btn_Voltar_um.BackColor = Color.Red;
                 btn_Voltar_todos.Enabled = false;
+                //btn_Voltar_todos.BackColor = Color.Red;
             }
 
             if (lstUtilizadores.Items.Count >= 0)
@@ -164,8 +186,12 @@ namespace Trabalho_Final
 
             if (lstSuspensos.Items.Count <= 0)
             {
+                //Caso não exista ninguém na lista de suspensos, invabiliza os botões e pinta-os de vermelho
+                //RETIREI A PARTE dos botões ficarem vermelhos... são demasiados floriados :))
                 btn_Voltar_todos.Enabled = false;
+                //btn_Voltar_todos.BackColor = Color.Red;
                 btn_Voltar_um.Enabled = false;
+                //btn_Voltar_um.BackColor = Color.Red;
             }
 
             if (lstUtilizadores.Items.Count >= 0)
@@ -184,9 +210,12 @@ namespace Trabalho_Final
                     lstUtilizadores.Items.RemoveAt(lstUtilizadores.SelectedIndex);
 
                     //Inviabiliza o botão "Remover" se a lista estiver vazia.
+                    
+                    
                     if (lstUtilizadores.Items.Count <= 0)
                     {
                         cmdRemover.Enabled = false;
+                        //cmdRemover.BackColor = Color.Red;
                     }
                 }
             }
@@ -208,6 +237,11 @@ namespace Trabalho_Final
             this.Hide();
             Principal geral = new Principal();
             geral.ShowDialog();
+
+        }
+
+        private void C_Sharp_12_Load(object sender, EventArgs e)
+        {
 
         }
     }

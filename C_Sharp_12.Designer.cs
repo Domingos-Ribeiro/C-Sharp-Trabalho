@@ -314,6 +314,7 @@
             this.Name = "C_Sharp_12";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "C_Sharp Class 12 - Users Validation";
+            this.Load += new System.EventHandler(this.C_Sharp_12_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.panel2.ResumeLayout(false);
