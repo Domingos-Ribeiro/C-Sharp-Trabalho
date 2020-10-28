@@ -346,28 +346,28 @@
             // 
             this.classToolStripMenuItem2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.classToolStripMenuItem2.Name = "classToolStripMenuItem2";
-            this.classToolStripMenuItem2.Size = new System.Drawing.Size(142, 22);
+            this.classToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
             this.classToolStripMenuItem2.Text = "Class";
             // 
             // documentsToolStripMenuItem1
             // 
             this.documentsToolStripMenuItem1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.documentsToolStripMenuItem1.Name = "documentsToolStripMenuItem1";
-            this.documentsToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
+            this.documentsToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.documentsToolStripMenuItem1.Text = "Documents";
             // 
             // tipsToolStripMenuItem3
             // 
             this.tipsToolStripMenuItem3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tipsToolStripMenuItem3.Name = "tipsToolStripMenuItem3";
-            this.tipsToolStripMenuItem3.Size = new System.Drawing.Size(142, 22);
+            this.tipsToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
             this.tipsToolStripMenuItem3.Text = "Tips";
             // 
             // finalProjectToolStripMenuItem2
             // 
             this.finalProjectToolStripMenuItem2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.finalProjectToolStripMenuItem2.Name = "finalProjectToolStripMenuItem2";
-            this.finalProjectToolStripMenuItem2.Size = new System.Drawing.Size(142, 22);
+            this.finalProjectToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
             this.finalProjectToolStripMenuItem2.Text = "Final Project";
             this.finalProjectToolStripMenuItem2.Click += new System.EventHandler(this.finalProjectToolStripMenuItem2_Click);
             // 
@@ -378,30 +378,36 @@
             this.documentsToolStripMenuItem2,
             this.tipsToolStripMenuItem4,
             this.fianlProjectToolStripMenuItem});
+            this.cToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.cToolStripMenuItem.Name = "cToolStripMenuItem";
             this.cToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cToolStripMenuItem.Text = "C++";
             // 
             // classToolStripMenuItem3
             // 
+            this.classToolStripMenuItem3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.classToolStripMenuItem3.Name = "classToolStripMenuItem3";
             this.classToolStripMenuItem3.Size = new System.Drawing.Size(197, 22);
             this.classToolStripMenuItem3.Text = "Class";
             // 
             // documentsToolStripMenuItem2
             // 
+            this.documentsToolStripMenuItem2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.documentsToolStripMenuItem2.Name = "documentsToolStripMenuItem2";
             this.documentsToolStripMenuItem2.Size = new System.Drawing.Size(197, 22);
             this.documentsToolStripMenuItem2.Text = "Documents";
             // 
             // tipsToolStripMenuItem4
             // 
+            this.tipsToolStripMenuItem4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.tipsToolStripMenuItem4.Name = "tipsToolStripMenuItem4";
             this.tipsToolStripMenuItem4.Size = new System.Drawing.Size(197, 22);
             this.tipsToolStripMenuItem4.Text = "Tips";
+            this.tipsToolStripMenuItem4.Click += new System.EventHandler(this.tipsToolStripMenuItem4_Click);
             // 
             // fianlProjectToolStripMenuItem
             // 
+            this.fianlProjectToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.fianlProjectToolStripMenuItem.Name = "fianlProjectToolStripMenuItem";
             this.fianlProjectToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
             this.fianlProjectToolStripMenuItem.Text = "No Final Project (Exam)";

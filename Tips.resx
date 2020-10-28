@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>
+              ·	Limpar uma List Box completa:  
+   listBox1-&gt;Items-&gt;Clear();
+
+              ·	Adicionar itens a uma Lista:  
+   listBox1-&gt;Items-&gt;Add("Nome do Item entre aspas");
+
+              ·	Janela de aviso ou Message Box Simples:  
+   MessageBox::Show("Escrever mensagem”); \n   Quebra a linha 
+
+
+              ·	Botão FECHAR com uma Janela de aviso ou Message Box com Botões Sim / Não:  
+   Windows::Forms::DialogResult dr = MessageBox::Show("Tem certeza que deseja fechar?", "Aviso", MessageBoxButtons::YesNo, MessageBoxIcon::Warning);
+   if (dr == Windows::Forms::DialogResult::Yes) Application::Exit();
+
+
+              ·	Evitar erros de exceção:  
+   try  catch (...) Substituir no final o (const std::exception&amp;) por (...)
+
+              ·	Limpar uma Caixa de texto ou Text Box depois de utilizada:   
+   txt_nome-&gt;Text = ""; NOTA: Esta linha deverá ser colocada dentro do Else
+
+              ·	Passar todas as letras para Maiúsculas: 
+   String^ digitado = txt_nome da caixa de texto-&gt;Text-&gt;ToUpper();
+
+              ·	Habilitar ou desabilitar um botão:   
+   btn_X-&gt;Enabled = false; ou True
+
+
+
+
+              ·	Criar um Novo Formulário dentro do mesmo projeto.
+   1.	No Solution Explorer, normalmente no lado direito, clicar com o botão direito do rato em cima do nome do Projeto atual, no meu caso ProjetoCLR;
+   2.	Add -&gt; New Item…;
+   3.	Dentro do Visual C++ no lado esquerdo, selecionar UI;
+   4.	Digitar um novo nome ou manter o que aparece lá, MyForm.h sem apagar o .h;
+   5.	Eu digitei Form_2, Duplo clique em Windows Form no topo ou Add no botão em baixo;
+   6.	Gravar tudo e fechar o V.S. (Visual Studio);
+   7.	Abrir o projeto .sln na pasta em questão e estará pronto.
+
+
+
+              ·	Criar um Link para um novo Formulário (ou Janela) escondendo a/o atual.
+   this-&gt;Hide();
+		ProjetoCLR::Form_2 formS;
+		formS.ShowDialog();
+   this-&gt;Show();
+   Nota: Form_2 É o nome do “Form_2.h” que irá abrir, terá que ser criado previamente. 
+            formS é apenas o nome exterior do Form_2.h, pode ser qualquer um.
+   IMPORTANTE: No início do form atual, por baixo do #pragma once
+              Colocar o nome do novo form #include "Form_2.h"
+			Para que este processo surta efeito, grave e feche o Visual Studio.
+
+
+
+
+             ·	Alterar o ícone (Icon) original do Visual Studio (Para o instalador) ou seja, quando compilarmos o nosso programa, o novo icon passa para o PC de quem instala.
+
+   Na janela de pesquisa do Visual Studio, digitar:Resource View. Abrir o dito cujo e dentro da nova Janela do Resource View, clicar com o botão direito do rato em cima do Projeto e Selecionar Add e depois Resource.
+   Na lista que vai aparecer, selecionar: Icon e depois Import. Na próxima janela, ir ao local onde está o Icon, (pode ser .ico ou png) clicar em Open, no editor escolher o tamanho pretendido, normalmente 16 por 16 ou 32 por 32 e Clicar no Debug e Start Debugging do Visual Studio.
+
+
+
+             ·	Colocar textos ou imagens a piscar (no caso de imagens, alternar de uma para outra)
+   1.	O exemplo seguinte, é referente ao texto a piscar (colocado em labels);
+   2.	Na Toolbox do lado esquerdo, procurar o Timer e colocar dentro do Formulário;
+   3.	Nas propriedades do mesmo procurar Enabled e mudar para False, Interval a gosto;
+   4.	Criar um variável pública no topo do Form, ver exemplo para uma variável pisca; 
+   public ref class Form1 : public System::Windows::Forms::Form
+   {
+		public:
+		static int pisca = 0; //Este é o local da variável.
+			Form1(void)
+   5.	De seguida, dois cliques no Timer para abrir o editor de código;
+   6.	Seguir o exemplo:
+   private: System::Void timer1_Tick(System::Object^ sender, System::EventArgs^ e)
+
+   {
+   pisca ++;
+
+   if (pisca %2 == 0)
+   {
+   lbl_piscar-&gt;Hide();//Esta linha ESCONDE o texto colocado na label.
+   }
+   if (pisca %2 != 0)
+   {
+   lbl_piscar-&gt;Show();//Esta linha MOSTRA o texto colocado na label.
+   }
+   }
+   7.	Depois é só criar um evento, se optar por botões, poderá ficar deste modo:
+   Botão 1
+   timer1-&gt;Start(); //Este botão dará início ao relógio (timer1).
+   Botão 2
+   Timer1-&gt;Stop();//Este botão iá colocar em pausa o (timer1).
+   NOTA: Depois de iniciar no botão 1, o evento ficará sempre ativo, só o botão 2 fechará o ciclo.
+   Para colocar imagens a alternar, colocar primeiro uma PictureBox no Form e dentro dos dos if:
+   {
+   Picbox-&gt;Load( “C:\\Fotos\\um.jpg” );//Caminho (Usar duas barras).
+   }
+   if (pisca %2 != 0)
+   {
+   Picbox-&gt;Load( “C:\\Fotos\\dois.jpg” );//Caminho p/ foto 2(dois.jpg)
+   }
+
+
+              ·	No final do Projeto, criar um ficheiro executável (.exe) para o nosso programa ser instalado noutros PC’s que rodem o Windows.
+
+   1.	IMPORTANTE, se o Visual Studio (VS) estiver aberto FECHE;
+   2.	Fazer o download do plugin de instalação para o Visual Studio no link em baixo;
+      https://marketplace.visualstudio.com/items?itemName=visualstudioclient.MicrosoftVisualStudio2017InstallerProjects
+   3.	Instalar o InstallerProjects.vsix, a instalação é simples, next, ,next, next e OK.
+   4.	Criar uma nova pasta dentro do Projeto, o nome é indiferente, eu chamei Instalar.
+   5.	Agora podemos abrir o VS, através de um duplo clique no ficheiro .sln;
+   6.	Em cima, dentro do Solution Explorer clicar com o botão direito do rato no Solution ‘Nome do Projeto’ (1 of 1 project) é o primeiro item do topo da lista;
+   7.	Add -&gt; New Project;
+   8.	Na janela nova que abriu, digitar em cima no campo de pesquisa, setup;
+   9.	Como vão aparecer mais do que um, talvez 3, escolher o Setup Wizard e clicar em Next;
+   10.	 Em Project name, digitar um nome para o instalador (Pode conter espaços);
+   11.	 Em Location, clicar nas reticencias … ou (3 pontos) e indicar o caminho para a pasta criada recentemente no 4.º Passo, a minha chama-se Instalar e clicar em Create;
+   12.	 No Setup Wizard clicar em Next; -&gt; Verificar se está selecionada a opção: Create a setup for a Windows application; -&gt;Next; -&gt; Selecionar a opção: Primary Output from (Nome do projeto em questão); -&gt; Next; Caso ficheiros HTML ou de Texto, coloque clicando em Add, eu nunca coloquei nada, -&gt; Next, -&gt;Finish.
+   13.	 Agora vamos configurar o instalador, se a Janela ou aba Properties estiver aberta, dar um clique normal no nome que deu para o instalador e Alterar tudo o que desejar, eu só coloco o meu nome em Author e coloco o n.º da versão na parte de baixo, em Version.
+   14.	 No lado esquerdo, mais precisamente em File System (nome do instalador) é possível indicar ao instalador para criar um atalho do nosso programa no ambiente de trabalho do utilizador, para isso seleciona User’s Desktop e altera o Always Create para True, ou indicar para o nosso programa ficar no menu iniciar em User’s Programs Menu, -&gt;True.
+   15.	 Para terminar, botão direito do rato em cima do instalador que acabamos de criar na aba ou janela do Solution Explorer, e selecionar a primeira opção Build.
+   16.	 Nota Final, e muito importante, sempre que se faça alterações no software, e isso vai ser muito regular, -&gt; Botão direito do rato na pasta logo a baixo do instalador (Detected Dependencies) e clicar em Refresh Dependencies, posteriormente no instalador, fazemos Rebuild em vez de Build. -  -  -  FEITO!  -  -  -
+</value>
+  </data>
+</root>
