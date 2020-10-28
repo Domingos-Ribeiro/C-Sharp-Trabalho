@@ -136,5 +136,10 @@ namespace Trabalho_Final
             Technical_Sprt suporte = new Technical_Sprt();
             suporte.ShowDialog();
         }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

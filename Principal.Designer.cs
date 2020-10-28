@@ -444,83 +444,84 @@
             // 
             this.toolStripMenuItem2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(218, 22);
-            this.toolStripMenuItem2.Text = "01";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(300, 22);
+            this.toolStripMenuItem2.Text = "01 - About C# ";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(218, 22);
-            this.toolStripMenuItem3.Text = "02";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(300, 22);
+            this.toolStripMenuItem3.Text = "02 - Arithmetic Operators";
             // 
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(218, 22);
-            this.toolStripMenuItem4.Text = "03";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(300, 22);
+            this.toolStripMenuItem4.Text = "03 - Conditional Structures (IF)";
             // 
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(218, 22);
-            this.toolStripMenuItem5.Text = "04";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(300, 22);
+            this.toolStripMenuItem5.Text = "04 - Loop (While)";
             // 
             // toolStripMenuItem6
             // 
             this.toolStripMenuItem6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(218, 22);
-            this.toolStripMenuItem6.Text = "05";
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(300, 22);
+            this.toolStripMenuItem6.Text = "05 - Some Exercises (Console)";
             // 
             // toolStripMenuItem7
             // 
             this.toolStripMenuItem7.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(218, 22);
-            this.toolStripMenuItem7.Text = "06";
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(300, 22);
+            this.toolStripMenuItem7.Text = "06 - Structured Variables - Arrays";
             // 
             // toolStripMenuItem8
             // 
             this.toolStripMenuItem8.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(218, 22);
-            this.toolStripMenuItem8.Text = "07";
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(300, 22);
+            this.toolStripMenuItem8.Text = "07 - String Manipulations, Character Arrays";
             // 
             // toolStripMenuItem9
             // 
             this.toolStripMenuItem9.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(218, 22);
-            this.toolStripMenuItem9.Text = "08";
+            this.toolStripMenuItem9.Size = new System.Drawing.Size(300, 22);
+            this.toolStripMenuItem9.Text = "08 - Loop (For)";
             // 
             // toolStripMenuItem10
             // 
             this.toolStripMenuItem10.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(218, 22);
-            this.toolStripMenuItem10.Text = "09";
+            this.toolStripMenuItem10.Size = new System.Drawing.Size(300, 22);
+            this.toolStripMenuItem10.Text = "09 - Conditional Structures (SWITCH)";
             // 
             // toolStripMenuItem11
             // 
             this.toolStripMenuItem11.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(218, 22);
-            this.toolStripMenuItem11.Text = "10";
+            this.toolStripMenuItem11.Size = new System.Drawing.Size(300, 22);
+            this.toolStripMenuItem11.Text = "10 - Functions";
             // 
             // toolStripMenuItem12
             // 
             this.toolStripMenuItem12.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripMenuItem12.Name = "toolStripMenuItem12";
-            this.toolStripMenuItem12.Size = new System.Drawing.Size(218, 22);
-            this.toolStripMenuItem12.Text = "11";
+            this.toolStripMenuItem12.Size = new System.Drawing.Size(300, 22);
+            this.toolStripMenuItem12.Text = "11 - Some Exercises (Forms)";
             // 
             // usersValidationToolStripMenuItem
             // 
             this.usersValidationToolStripMenuItem.Name = "usersValidationToolStripMenuItem";
-            this.usersValidationToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.usersValidationToolStripMenuItem.Size = new System.Drawing.Size(300, 22);
             this.usersValidationToolStripMenuItem.Text = "12 - Users Validation";
             this.usersValidationToolStripMenuItem.Click += new System.EventHandler(this.usersValidationToolStripMenuItem_Click);
             // 
@@ -528,7 +529,7 @@
             // 
             this.toolStripMenuItem13.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripMenuItem13.Name = "toolStripMenuItem13";
-            this.toolStripMenuItem13.Size = new System.Drawing.Size(218, 22);
+            this.toolStripMenuItem13.Size = new System.Drawing.Size(300, 22);
             this.toolStripMenuItem13.Text = "13 - This is the Final Project";
             // 
             // documentsToolStripMenuItem3
