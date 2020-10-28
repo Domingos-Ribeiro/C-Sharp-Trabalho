@@ -89,6 +89,7 @@
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.creditsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.technicalSupportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -305,27 +306,27 @@
             // 
             this.classToolStripMenuItem1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.classToolStripMenuItem1.Name = "classToolStripMenuItem1";
-            this.classToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.classToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
             this.classToolStripMenuItem1.Text = "Class";
             // 
             // tipsToolStripMenuItem1
             // 
             this.tipsToolStripMenuItem1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tipsToolStripMenuItem1.Name = "tipsToolStripMenuItem1";
-            this.tipsToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.tipsToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
             this.tipsToolStripMenuItem1.Text = "Documents";
             // 
             // tipsToolStripMenuItem2
             // 
             this.tipsToolStripMenuItem2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tipsToolStripMenuItem2.Name = "tipsToolStripMenuItem2";
-            this.tipsToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.tipsToolStripMenuItem2.Size = new System.Drawing.Size(142, 22);
             this.tipsToolStripMenuItem2.Text = "Tips";
             // 
             // finalProjectToolStripMenuItem1
             // 
             this.finalProjectToolStripMenuItem1.Name = "finalProjectToolStripMenuItem1";
-            this.finalProjectToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.finalProjectToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
             this.finalProjectToolStripMenuItem1.Text = "Final Project";
             this.finalProjectToolStripMenuItem1.Click += new System.EventHandler(this.finalProjectToolStripMenuItem1_Click);
             // 
@@ -345,28 +346,28 @@
             // 
             this.classToolStripMenuItem2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.classToolStripMenuItem2.Name = "classToolStripMenuItem2";
-            this.classToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.classToolStripMenuItem2.Size = new System.Drawing.Size(142, 22);
             this.classToolStripMenuItem2.Text = "Class";
             // 
             // documentsToolStripMenuItem1
             // 
             this.documentsToolStripMenuItem1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.documentsToolStripMenuItem1.Name = "documentsToolStripMenuItem1";
-            this.documentsToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.documentsToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
             this.documentsToolStripMenuItem1.Text = "Documents";
             // 
             // tipsToolStripMenuItem3
             // 
             this.tipsToolStripMenuItem3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tipsToolStripMenuItem3.Name = "tipsToolStripMenuItem3";
-            this.tipsToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.tipsToolStripMenuItem3.Size = new System.Drawing.Size(142, 22);
             this.tipsToolStripMenuItem3.Text = "Tips";
             // 
             // finalProjectToolStripMenuItem2
             // 
             this.finalProjectToolStripMenuItem2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.finalProjectToolStripMenuItem2.Name = "finalProjectToolStripMenuItem2";
-            this.finalProjectToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.finalProjectToolStripMenuItem2.Size = new System.Drawing.Size(142, 22);
             this.finalProjectToolStripMenuItem2.Text = "Final Project";
             this.finalProjectToolStripMenuItem2.Click += new System.EventHandler(this.finalProjectToolStripMenuItem2_Click);
             // 
@@ -548,7 +549,8 @@
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aboutToolStripMenuItem,
-            this.creditsToolStripMenuItem});
+            this.creditsToolStripMenuItem,
+            this.technicalSupportToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
@@ -568,6 +570,14 @@
             this.creditsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.creditsToolStripMenuItem.Text = "Credits";
             this.creditsToolStripMenuItem.Click += new System.EventHandler(this.creditsToolStripMenuItem_Click);
+            // 
+            // technicalSupportToolStripMenuItem
+            // 
+            this.technicalSupportToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.technicalSupportToolStripMenuItem.Name = "technicalSupportToolStripMenuItem";
+            this.technicalSupportToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.technicalSupportToolStripMenuItem.Text = "Technical Support";
+            this.technicalSupportToolStripMenuItem.Click += new System.EventHandler(this.technicalSupportToolStripMenuItem_Click);
             // 
             // Principal
             // 
@@ -652,6 +662,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem14;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem15;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem16;
+        private System.Windows.Forms.ToolStripMenuItem technicalSupportToolStripMenuItem;
     }
 }
 

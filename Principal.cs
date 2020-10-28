@@ -130,5 +130,11 @@ namespace Trabalho_Final
             Credits creditos = new Credits();
             creditos.ShowDialog();
         }
+
+        private void technicalSupportToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Technical_Sprt suporte = new Technical_Sprt();
+            suporte.ShowDialog();
+        }
     }
 }
