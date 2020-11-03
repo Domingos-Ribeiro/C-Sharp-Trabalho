@@ -35,18 +35,18 @@
             // rtb_TechSprt
             // 
             this.rtb_TechSprt.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtb_TechSprt.Location = new System.Drawing.Point(40, 67);
+            this.rtb_TechSprt.Location = new System.Drawing.Point(18, 67);
             this.rtb_TechSprt.Name = "rtb_TechSprt";
             this.rtb_TechSprt.ReadOnly = true;
-            this.rtb_TechSprt.Size = new System.Drawing.Size(350, 100);
+            this.rtb_TechSprt.Size = new System.Drawing.Size(403, 100);
             this.rtb_TechSprt.TabIndex = 0;
-            this.rtb_TechSprt.Text = "   At the moment, only the menus shown in bold are working, all others will be im" +
-    "plemented shortly.\n\n   We apologize for the fact.";
+            this.rtb_TechSprt.Text = "   At the moment, only the menus shown in bold are working.\n\n      We apologize f" +
+    "or the fact. Thank you for understanding.";
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(166, 227);
+            this.button1.Location = new System.Drawing.Point(170, 219);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(96, 35);
             this.button1.TabIndex = 1;
@@ -58,7 +58,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(424, 296);
+            this.ClientSize = new System.Drawing.Size(439, 296);
             this.ControlBox = false;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.rtb_TechSprt);
