@@ -241,7 +241,7 @@
    13.	 Agora vamos configurar o instalador, se a Janela ou aba Properties estiver aberta, dar um clique normal no nome que deu para o instalador e Alterar tudo o que desejar, eu só coloco o meu nome em Author e coloco o n.º da versão na parte de baixo, em Version.
    14.	 No lado esquerdo, mais precisamente em File System (nome do instalador) é possível indicar ao instalador para criar um atalho do nosso programa no ambiente de trabalho do utilizador, para isso seleciona User’s Desktop e altera o Always Create para True, ou indicar para o nosso programa ficar no menu iniciar em User’s Programs Menu, -&gt;True.
    15.	 Para terminar, botão direito do rato em cima do instalador que acabamos de criar na aba ou janela do Solution Explorer, e selecionar a primeira opção Build.
-   16.	 Nota Final, e muito importante, sempre que se faça alterações no software, e isso vai ser muito regular, -&gt; Botão direito do rato na pasta logo a baixo do instalador (Detected Dependencies) e clicar em Refresh Dependencies, posteriormente no instalador, fazemos Rebuild em vez de Build. -  -  -  FEITO!  -  -  -
+   16.	 Nota Final, e muito importante, sempre que se faça alterações no software, e isso vai ser muito regular, -&gt; Botão direito do rato na pasta logo a baixo do instalador (Detected Dependencies) e clicar em Refresh Dependencies, posteriormente no instalador, fazemos Rebuild em vez de Build. Isto só para poder gerar o novo ficheiro executável atualizado. -  -  -  FEITO!  -  -  -
 </value>
   </data>
 </root>
