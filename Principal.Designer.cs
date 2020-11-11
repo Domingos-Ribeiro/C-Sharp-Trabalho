@@ -90,6 +90,7 @@
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.creditsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.technicalSupportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -263,7 +264,7 @@
             this.tipsToolStripMenuItem,
             this.finalProjectToolStripMenuItem});
             this.hTMLToolStripMenuItem.Name = "hTMLToolStripMenuItem";
-            this.hTMLToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.hTMLToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.hTMLToolStripMenuItem.Text = "HTML";
             // 
             // classToolStripMenuItem
@@ -299,7 +300,7 @@
             this.finalProjectToolStripMenuItem1});
             this.cSSToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.cSSToolStripMenuItem.Name = "cSSToolStripMenuItem";
-            this.cSSToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cSSToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.cSSToolStripMenuItem.Text = "CSS";
             // 
             // classToolStripMenuItem1
@@ -339,7 +340,7 @@
             this.finalProjectToolStripMenuItem2});
             this.fSIToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.fSIToolStripMenuItem.Name = "fSIToolStripMenuItem";
-            this.fSIToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fSIToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.fSIToolStripMenuItem.Text = "FSI";
             // 
             // classToolStripMenuItem2
@@ -380,7 +381,7 @@
             this.fianlProjectToolStripMenuItem});
             this.cToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.cToolStripMenuItem.Name = "cToolStripMenuItem";
-            this.cToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.cToolStripMenuItem.Text = "C++";
             // 
             // classToolStripMenuItem3
@@ -420,7 +421,7 @@
             this.tipsToolStripMenuItem5});
             this.cToolStripMenuItem1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.cToolStripMenuItem1.Name = "cToolStripMenuItem1";
-            this.cToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.cToolStripMenuItem1.Size = new System.Drawing.Size(107, 22);
             this.cToolStripMenuItem1.Text = "C#";
             this.cToolStripMenuItem1.Click += new System.EventHandler(this.cToolStripMenuItem1_Click);
             // 
@@ -442,7 +443,7 @@
             this.toolStripMenuItem13});
             this.classToolStripMenuItem4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.classToolStripMenuItem4.Name = "classToolStripMenuItem4";
-            this.classToolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
+            this.classToolStripMenuItem4.Size = new System.Drawing.Size(135, 22);
             this.classToolStripMenuItem4.Text = "Class";
             this.classToolStripMenuItem4.Click += new System.EventHandler(this.classToolStripMenuItem4_Click);
             // 
@@ -542,14 +543,14 @@
             // 
             this.documentsToolStripMenuItem3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.documentsToolStripMenuItem3.Name = "documentsToolStripMenuItem3";
-            this.documentsToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.documentsToolStripMenuItem3.Size = new System.Drawing.Size(135, 22);
             this.documentsToolStripMenuItem3.Text = "Documents";
             // 
             // tipsToolStripMenuItem5
             // 
             this.tipsToolStripMenuItem5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tipsToolStripMenuItem5.Name = "tipsToolStripMenuItem5";
-            this.tipsToolStripMenuItem5.Size = new System.Drawing.Size(180, 22);
+            this.tipsToolStripMenuItem5.Size = new System.Drawing.Size(135, 22);
             this.tipsToolStripMenuItem5.Text = "Tips";
             // 
             // helpToolStripMenuItem
@@ -586,6 +587,15 @@
             this.technicalSupportToolStripMenuItem.Text = "Technical Support";
             this.technicalSupportToolStripMenuItem.Click += new System.EventHandler(this.technicalSupportToolStripMenuItem_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(151, 170);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -593,6 +603,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(795, 531);
             this.ControlBox = false;
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MainMenuStrip = this.menuStrip1;
@@ -670,6 +681,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem15;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem16;
         private System.Windows.Forms.ToolStripMenuItem technicalSupportToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
     }
 }
 
